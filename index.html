@@ -15,7 +15,15 @@
             margin: 1.0px;
         }
         p {
-            color：gray；
+            background：gray；
+        }
+        .emoji-box {
+            font-size: 50;
+            display: inline-block;
+            animation: spin 1s linear infinite
+        }
+        @keyframes spin {
+            from {transform: rotate(0deg); }to {transform: rotate(360deg); }
         }
   </style>
     <P>大家今天有没有好好生活呢？</P>
@@ -24,11 +32,12 @@
     <div class="favorite-food">
         fufu我啊，非常喜欢<span class="emoji">🍚</span>跟<span class="emoji">😴</span>！
     </div>
+    <div class="emoji-box">🤓☝</div>
 </body>
 <BODY>今日菜谱🍚＋🍚=😋</BODY>
 <div style="text-align: center; padding: 20px;">
     <img src="5692d6cb9fec4fbc08aab33d0f05b419.jpg"
          alt="大傻"
-         style="max-width: 40%; width: 90px; height: auto; border-radius: 15px;">
+         style="max-width: 40%; width: 150px; height: auto; border-radius: 20px;">
 </div>   
 </html>
